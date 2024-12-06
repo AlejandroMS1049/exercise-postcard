@@ -1,0 +1,60 @@
+body {
+	background: black;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+.postcard-header {
+	display: flex;
+	align-items: center;
+	height: 45px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 345px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+	height: 200px;
+	padding-top: 15px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	text-align: left;
+	outline: 0;
+}
+.postcard-footer {
+	text-align: center;
+	height: 45px;
+}
+button {
+	background-color: lightgrey;
+	border: none;
+	border-radius: 0%;
+	height: 30px;
+}
+button:active {
+	background-color: darkgrey;
+}
+input:active {
+	border: none;
+	border-bottom: 1px solid darkgrey;
+}
